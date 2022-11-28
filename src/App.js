@@ -27,10 +27,10 @@ function App() {
         <button className="increment" onClick={incrementCount}>
           Increment
         </button>
-        <button className="reset" onClick={resetCount}>
-          Reset
-        </button>
       </div>
+      <button className="reset" onClick={resetCount}>
+        Reset
+      </button>
     </div>
   );
 }
